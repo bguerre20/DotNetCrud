@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0063)http://web.csulb.edu/~pnguyen/cecs475/labs/cecs475lab5fa15.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CECS 475 Assignment #2</title>
+<link href="./CECS 475 Assignment #2_files/site_styles.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style></head>
+
+<body>
+<p><strong>CECS 475<br>
+  Lab Assignment #5<br>
+  Assigned date: 10/12<br>
+  Due date: 10/19<br>
+  15 points </strong></p>
+<p>1.  The database <a href="http://web.csulb.edu/~pnguyen/cecs475/labs/SchoolDB.mdf">SchoolDB</a>&nbsp; has has different  tables, stored procedures and views. The SchoolDB database design is shown  below:</p>
+<p>&nbsp;</p>
+<p><img src="./CECS 475 Assignment #2_files/schoolda.jpg" alt="school data base diagram" width="550" height="366"></p>
+<p>As you can see in the above figure that  SchoolDB database includes tables with following relationship.</p>
+<div class="bullet_point">
+  <div class="point">
+    <ul>
+      <li><strong>One-to-One:</strong> Student and StudentAddress have a one-to-one relationship eg. Student has zero or one StudentAddress.</li>
+      <li><strong>One-to-Many:</strong> Standard and Teacher have a one-to-many relationship eg. many Teachers can be associate with one Standard.</li>
+      <li><strong>Many-to-Many:</strong> Student and   Course have a many-to-many relationship using StudentCourse table where   StudentCourse table includes StudentId and CourseId. So one student can   join many courses and one course also can have many students. </li>
+    </ul>
+  </div>
+</div>
+<p>Below is the Entity Data Model (EDM) for SchoolDB database.</p>
+<p><strong><img src="./CECS 475 Assignment #2_files/EntityDesignerDiagram.bmp" alt="EF diagram"><br>
+</strong></p>
+<p>&nbsp;</p>
+<p>Implement the  CRUD&nbsp;operations in the connected database mode&nbsp;with the following entity relationships. </p>
+<ol type="a">
+  <li>One-to-One (Student and Student Address)  </li>
+  <ul>
+    <li>Add two students<br>
+      Student name = "aaa aaa";<br>
+      Address1 = "123 aaa",<br>
+Address2 = "345 aaa",<br>
+City = "Long Beach",<br>
+State = "California"<br>
+<br>
+Student name = "bbb bbb";<br>
+Address1 = "123 bbb",<br>
+Address2 = "123 bbb",<br>
+City = "Long Beach",<br>
+State = "California"<br>
+<br>
+    </li>
+    <li>Display two students</li>
+    <li>Update student "aaa aaa" by changing address 1 to "123 aaa new"</li>
+    <li>Display student "aaa aaa"</li>
+    <li>Delete the address of student "aaa aaa"</li>
+    <li>Display the student "aaa aaa"<br>
+      <br>
+    </li>
+  </ul>
+  <li>One-to-Many (Standard and Student)
+    <ul>
+      <li>Create two Standard object<br>
+        stda1.StandardName = "FT";<br>
+stda1.Description = "Full- time Instructor";<br>
+stda2.StandardName = "PT";<br>
+stda2.Description = "Part-time Instructor";<br>
+<br>
+Create three Teacher objects<br>
+ta1.TeacherName = "Teacher Name 1";<br>
+ta2.TeacherName = "Teacher Name 2";<br>
+ta3.TeacherName = "Teacher Name 3";<br>
+<br>
+Add teach ta1 and ta2 to standard stda1 and teacher ta3 to standard stda2<br>
+Display ta1, ta2, and ta3 including their standard name and description<br>
+<br>
+      </li>
+      <li>Update the standard stda1 by changing the descripton to "Full-time instructor update"</li>
+      <li>Display all teachers with their standard description who are full time.</li>
+      <li>Change the standard id of ta1 to the standard id of the part time instructor</li>
+      <li>Display the ta1 with his or her standard description.<br>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p><br>
+<strong>Helpful resoures for the problem 1</strong>:</p>
+<p><a href="http://web.csulb.edu/~pnguyen/cecs475/labs/475%20Lab%204%20Part%203.zip">Partial code for problem 1</a> (zip) with the ShoolDB converted to EDM.<br>
+  Insert, Update, and Delete with Entity Data Model <a href="http://web.csulb.edu/~pnguyen/cecs475/pdf/linqentities.pdf">(pdf)</a>&nbsp;<br>
+</p>
+<p>2. To be announced on Wednesday.<br>
+  <strong>Grading</strong></p>
+<ul>
+  <li>Demonstrate the result to the instructor in the class</li>
+</ul>
+<p>&nbsp;</p>
+
+
+</body></html>
