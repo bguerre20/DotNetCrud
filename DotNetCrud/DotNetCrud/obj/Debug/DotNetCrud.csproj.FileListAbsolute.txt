@@ -1,1 +1,15 @@
 C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\DotNetCrud.exe.config
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\SchoolDB.mdf
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\SchoolDB_log.ldf
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\DotNetCrud.exe
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\DotNetCrud.pdb
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\EntityFramework.dll
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\EntityFramework.SqlServer.dll
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\EntityFramework.xml
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\bin\Debug\EntityFramework.SqlServer.xml
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\obj\Debug\DotNetCrud.csprojResolveAssemblyReference.cache
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\obj\Debug\DotNetCrud.Form1.resources
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\obj\Debug\DotNetCrud.Properties.Resources.resources
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\obj\Debug\DotNetCrud.csproj.GenerateResource.Cache
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\obj\Debug\DotNetCrud.exe
+C:\Code\DotNedCrud\DotNetCrud\DotNetCrud\obj\Debug\DotNetCrud.pdb
